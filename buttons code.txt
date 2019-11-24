@@ -1,0 +1,11 @@
+ <div class="social-buttons">  
+        <button class ="Twitter"> <!--source: https://codepen.io/eliakimsilvestre/pen/yAGkp--> 
+          <a href="https://twitter.com/hann_ah29">Twitter</a>
+        </button>
+        <button class ="Instagram">
+          <a href="https://www.instagram.com/han.nah_a/">Instagram</a>
+        </button>
+        <button class ="linkedin">
+          <a href="https://www.linkedin.com/in/hannah-a-ba4521121/">linkedin</a>
+        </button>
+    </div>

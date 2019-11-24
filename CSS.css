@@ -2,9 +2,7 @@
     font-size: 75.5%;
     font-family: montserrat, sans-serif;
 }
-.margin{
-    margin-left: 4px;
-}
+
 h1{
     font-size: 3.5rem;
     font-weight: 400;
@@ -23,7 +21,12 @@ h3 {
     font-family: 'Quicksand', sans-serif;
     line-height: 1.5em;
 }
-
+p {
+    font-size: 1.3em;
+}
+.abouts {
+    text-align: right;
+}
 hr{
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -32,8 +35,9 @@ hr{
 }
 
 .container{
-    width: 96rem;
-    margin: 2rem auto;
+    position: relative;
+    text-align: center;
+    color: white;
 }
 
 .gallery-item{
@@ -66,11 +70,12 @@ hr{
 	background: #ffffff;
 	margin:0.5em 0; 
     padding:0.3em; 
-    font-size: 3rem;
+    font-size: 2.5rem;
 
 } 
 .navbar a{ 
     text-decoration:none; 
+    color: black;
 }
 
 .hero {
@@ -92,12 +97,23 @@ min-height: 100vh;
 }
 .video-bg {
     position: absolute;
-    z-index: -1;
+    z-index: -2;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     min-width: 100%;
     min-height: 100%;
+    
+}
+.image_bg {
+    position: absolute;
+    z-index: 9;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+
 }
 .heroimage {
     position: absolute;
