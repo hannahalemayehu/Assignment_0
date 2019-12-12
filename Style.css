@@ -1,0 +1,151 @@
+@media only screen and (min-width:769px) {
+    .gridContainer {
+        width: 89.0217% ;
+        max-width: 1232px ;
+        padding-left: 0.4891% ;
+        margin: auto;
+    }
+#LayoutDiv1 {
+    
+}
+}
+
+:root {
+    font-size: 75.5%;
+    font-family: montserrat, sans-serif;
+}
+
+h1{
+    font-size: 3.5rem;
+    font-weight: 400;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    color: #0000009d;
+}
+
+h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2.5rem;
+    line-height: 1.5em;
+}
+h3 {
+    font-size: 1.5rem;
+    font-family: 'Quicksand', sans-serif;
+    line-height: 1.5em;
+}
+p {
+    font-size: 1.3em;
+}
+.abouts {
+    text-align: right;
+}
+hr{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.container{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.gallery-item{
+    max-width: 100%;
+    border-radius: 5px;
+    box-shadow: 0.5px  20px rgba(0, 0, 0, 0.5);
+    transition: all .3s;
+    overflow: hidden;
+    position: relative;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 
+    minmax(300px, 1fr));
+    grid-gap: 1.5rem;
+    grid-auto-rows: minmax(150px, auto);
+}
+
+.navbar ul{ 
+	margin:0; 
+	padding:0; 
+	list-style-type:none; 
+    align-content: center;
+    
+}
+.navbar li {
+    display:inline; 
+	line-height:2em; 
+	background: #ffffff;
+	margin:0.5em 0; 
+    padding:0.3em; 
+    font-size: 2.5rem;
+
+} 
+.navbar a{ 
+    text-decoration:none; 
+    color: black;
+}
+
+.hero {
+display: flex;
+justify-content: center;
+align-items: center;
+background: #333;
+background: rgba(0, 0, 0, 0.25);
+/* background-image:linear-gradient(
+    90deg,
+    rgba(168,24,24,0.614),
+    rgba(0, 0, 255, 0.733)
+); */
+color: white;
+margin-bottom: 100px;
+position: relative;
+overflow: hidden;
+min-height: 100vh;
+}
+.video-bg {
+    position: absolute;
+    z-index: -2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    
+}
+.image_bg {
+    position: absolute;
+    z-index: 9;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+
+}
+.heroimage {
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+}
+.social-buttons {
+  position: relative;
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 50px 30px;
+  text-align: center;
+  scrollbar-shadow-color: blue;
+  background-color: #F0F2F5;
+  }
+  .purpose {
+    grid-column-start: 1; 
+    grid-column-end: 2;
+  }
