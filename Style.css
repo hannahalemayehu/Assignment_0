@@ -14,6 +14,10 @@
 }
 } /*Source: week 9 class presentation; slide 16*/
 
+body {
+    padding: 0.5cm ;
+}
+
 :root {
     font-size: 75.5%;
     font-family: montserrat, sans-serif;
@@ -24,7 +28,7 @@ h1{
     font-weight: 400;
     text-align: center;
     font-family: 'Oswald', sans-serif;
-    color: #0000009d;
+    color: #080808;
 }
 
 h2 {
@@ -90,7 +94,7 @@ hr{
 } 
 .navbar a{ 
     text-decoration:none; 
-    color: black;
+    color: black; 
 }
 
 .hero {
@@ -152,3 +156,44 @@ min-height: 100vh;
     display: grid;
     grid-template-columns: repeat(2, minmax(300px, 1fr));
     }
+.cv {
+  margin:20px 0px 5px 0px;
+  padding-left:40px;
+  padding-right:40px;  /*source: https://codepen.io/johnsonjpj/pen/MwQqLN */
+  display: grid;
+  grid-template-columns: repeat(2, minmax(350px, 4fr));
+}
+
+.heading {
+    font-size:28px;
+    padding-bottom:10px;
+    border-bottom:2px solid #080808;
+    margin-top:30px;
+  }/*source: https://codepen.io/johnsonjpj/pen/MwQqLN */
+  
+  .title {
+    color:#080808;
+    margin:0px;
+    margin-top:30px;
+    font-size:22px;
+    padding-bottom:5px;
+    font-weight:bold;
+  }/*source: https://codepen.io/johnsonjpj/pen/MwQqLN */
+  
+  .subtitle {
+    padding-bottom:5px;
+    margin:0px;
+    color:#636366;
+    font-size:19px;
+  }/*source: https://codepen.io/johnsonjpj/pen/MwQqLN */
+  
+  .date {
+    padding-bottom:5px;
+    margin:0px;
+    color:#9E9598;
+    font-style:italic;
+    font-size:17px;
+  }/*source: https://codepen.io/johnsonjpj/pen/MwQqLN */
+  .skills {
+      text-align: right;
+  }
