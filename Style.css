@@ -160,10 +160,20 @@ min-height: 100vh;
   margin:20px 0px 5px 0px;
   padding-left:40px;
   padding-right:40px;  /*source: https://codepen.io/johnsonjpj/pen/MwQqLN */
-  display: grid;
-  grid-template-columns: repeat(2, minmax(350px, 4fr));
-}
-
+  /* text-align: left; */
+    display: grid;
+    grid-template-columns: repeat(4, 1/2fr);
+    grid-template-rows: repeat(6, 1/2fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+ }
+ /* .cv_right {
+    margin:20px 0px 5px 0px;
+    padding-left:40px;
+    padding-right:40px;  /*source: https://codepen.io/johnsonjpj/pen/MwQqLN */
+    /* text-align: right;
+    grid-template-columns: repeat(2, minmax(300px, 1fr)); */
+   
 .heading {
     font-size:28px;
     padding-bottom:10px;
@@ -196,4 +206,13 @@ min-height: 100vh;
   }/*source: https://codepen.io/johnsonjpj/pen/MwQqLN */
   .skills {
       text-align: right;
+      margin:20px 0px 5px 0px;
+      padding-left:40px;
+      padding-right:40px;  /*source: https://codepen.io/johnsonjpj/pen/MwQqLN */
+      /* text-align: left; */
+        display: grid;
+        grid-template-columns: repeat(4, 1/2fr);
+        grid-template-rows: repeat(6, 1/2fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
   }
