@@ -62,7 +62,6 @@ hr{
 .gallery-item{
     max-width: 100%;
     border-radius: 5px;
-    box-shadow: 0.5px  20px rgba(0, 0, 0, 0.5);
     transition: all .3s;
     overflow: hidden;
     position: relative;
@@ -86,7 +85,7 @@ hr{
 .navbar li {
     display:inline; 
 	line-height:2em; 
-	background: #ffffff;
+	background: #6b6a6a;
 	margin:0.5em 0; 
     padding:0.3em; 
     font-size: 2.5rem;
@@ -95,13 +94,17 @@ hr{
 .navbar a{ 
     text-decoration:none; 
     color: black; 
+    
+}
+.active {
+    font-weight: bolder;
 }
 
 .hero {
 display: flex;
 justify-content: center;
 align-items: center;
-background: #333;
+background: rgb(180, 97, 97);
 background: rgba(0, 0, 0, 0.25);
 /* background-image:linear-gradient(
     90deg,
@@ -126,7 +129,7 @@ min-height: 100vh;
 }
 .image_bg {
     position: absolute;
-    z-index: 9;
+    z-index: -2;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -151,11 +154,11 @@ min-height: 100vh;
   text-align: center;
   scrollbar-shadow-color: blue;
   background-color: #F0F2F5;
-  }
+}
   .purpose {
     display: grid;
     grid-template-columns: repeat(2, minmax(300px, 1fr));
-    }
+ }
 .cv {
   margin:20px 0px 5px 0px;
   padding-left:40px;
@@ -167,12 +170,6 @@ min-height: 100vh;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
  }
- /* .cv_right {
-    margin:20px 0px 5px 0px;
-    padding-left:40px;
-    padding-right:40px;  /*source: https://codepen.io/johnsonjpj/pen/MwQqLN */
-    /* text-align: right;
-    grid-template-columns: repeat(2, minmax(300px, 1fr)); */
    
 .heading {
     font-size:28px;
@@ -215,4 +212,7 @@ min-height: 100vh;
         grid-template-rows: repeat(6, 1/2fr);
         grid-column-gap: 0px;
         grid-row-gap: 0px;
+  }
+  .Portfolio {
+      text-align: left;
   }
